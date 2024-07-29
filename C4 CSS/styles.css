@@ -1,0 +1,40 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+}
+
+.fondo {
+	background-color: #f00;
+}
+
+.miTexto {
+	font-size: 80px;
+	color: #0f0;
+}
+
+#h1-container {
+	border: 2px solid #000;
+	display: flex;
+	justify-content: center;
+	box-shadow: 22px 22px 22px #0009;
+}
+
+#body-container {
+	box-shadow: 22px 22px 22px #0009;
+	display: flex;
+	justify-content: center;
+	margin-top: 15vh;
+	padding: 25px;
+
+}
+
+#body-container:hover p {
+	background-color: #fff;
+	color: #f00;
+}
+
+#body-container:hover {
+	background-color: #fff;
+}
